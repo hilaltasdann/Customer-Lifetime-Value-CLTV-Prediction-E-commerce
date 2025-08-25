@@ -71,10 +71,11 @@ streamlit run app.py
 - Open the provided local URL (e.g., http://localhost:8501) to view the interactive dashboard.
 
 6. Results
-Best Model: XGBoost achieved the highest predictive performance.
-Top-100 High-Value Customer Accuracy: ~65%.
-Key Predictors: Recency, Frequency, Average Payment Amount.
-Impact: Enables data-driven customer segmentation and targeted marketing strategies.
+
+- Best Model: XGBoost achieved the highest predictive performance.
+- Top-100 High-Value Customer Accuracy: ~65%.
+- Key Predictors: Recency, Frequency, Average Payment Amount.
+- Impact: Enables data-driven customer segmentation and targeted marketing strategies.
 
 
 7. Future Work
