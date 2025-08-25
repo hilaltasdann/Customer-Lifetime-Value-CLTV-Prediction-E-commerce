@@ -24,7 +24,7 @@ Hyperparameter tuning with GridSearchCV for optimal results.
 SHAP feature importance plots and per-customer explanations.
 Identified key drivers: Recency, Average Order Value, Frequency.
 
--Interactive Dashboard (Streamlit)
+- Interactive Dashboard (Streamlit)
 Data Overview: Dataset intro, context, and preprocessing steps.
 Modelling Results: Performance metrics, Top-N customer predictions.
 SHAP Insights: Feature importance, beeswarm plots, and transparency.
@@ -46,28 +46,29 @@ Business Recommendations: Marketing, retention, and revenue strategies.
 ├── requirements.txt               # Project dependencies
 ├── README.md                      # This file
 
+
 4. Installation
-# Clone the repository
+- Clone the repository
 git clone https://github.com/yourusername/cltv-prediction.git
 cd cltv-prediction
 
-# Create a virtual environment (recommended)
+- Create a virtual environment (recommended)
 python -m venv venv
 source venv/bin/activate      # (Mac/Linux)
 venv\Scripts\activate         # (Windows)
 
-# Install dependencies
+- Install dependencies
 pip install -r requirements.txt
 
 5. Usage
-Run the CLTV pipeline (training & evaluation)
+- Run the CLTV pipeline (training & evaluation)
 python src/modeling.py
 
-Launch the Streamlit dashboard
+- Launch the Streamlit dashboard
 cd streamlit_app
 streamlit run app.py
 
-Open the provided local URL (e.g., http://localhost:8501) to view the interactive dashboard.
+- Open the provided local URL (e.g., http://localhost:8501) to view the interactive dashboard.
 
 6. Results
 Best Model: XGBoost achieved the highest predictive performance.
