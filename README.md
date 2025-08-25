@@ -32,19 +32,19 @@ Business Recommendations: Marketing, retention, and revenue strategies.
 
 3. Project Structure
 .
-├── data/                          # (Optional) Raw dataset folder
-├── notebooks/                     # Data exploration & experimentation
+├── data/                          
+├── notebooks/                    
 ├── src/
-│   ├── preprocessing.py           # Data cleaning & feature engineering
-│   ├── modeling.py                # ML models & evaluation
-│   ├── explainability.py          # SHAP explainability
+│   ├── preprocessing.py         
+│   ├── modeling.py                
+│   ├── explainability.py       
 │
 ├── streamlit_app/
-│   ├── app.py                     # Streamlit dashboard
-│   ├── images/                    # Dashboard visuals (EDA, SHAP plots)
+│   ├── app.py                     
+│   ├── images/                    
 │
-├── requirements.txt               # Project dependencies
-├── README.md                      # This file
+├── requirements.txt              
+├── README.md                 
 
 
 4. Installation
@@ -84,12 +84,10 @@ Incorporating customer engagement and behavioral features.
 Exploring deep learning architectures for improved accuracy.
 
 9. Tech Stack
-Python: Pandas, NumPy, scikit-learn, XGBoost, LightGBM, SHAP, Matplotlib
-Streamlit: Interactive web app
-Machine Learning & Explainable AI
+- Python: Pandas, NumPy, scikit-learn, XGBoost, LightGBM, SHAP, Matplotlib
+- Streamlit: Interactive web app
+- Machine Learning & Explainable AI
 
 10. Acknowledgements
 Dataset provided by Olist
 .
-
-Inspired by customer analytics use-cases in e-commerce and CRM optimization.
